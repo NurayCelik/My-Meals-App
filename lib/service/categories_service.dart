@@ -4,13 +4,13 @@ import '../models/category.dart';
 
 class CategoryService {
   static const ADD_URL =
-      "http://nc.nuraycelik.com/mymeals/add.php";
+      "http://n.com/mymeals/add.php";
   static const VIEW_URL =
-      "http://nc.nuraycelik.com/mymeals/viewmeal.php";
+      "http://n.com/mymeals/viewmeal.php";
   static const UPDATE_URL =
-      "http://nc.nuraycelik.com/mymeals/update.php";
+      "http://n.com/mymeals/update.php";
   static const DELETE_URL =
-      "http://nc.nuraycelik.com/mymeals/delete.php";
+      "http://n.com/mymeals/delete.php";
 
   Future<String> addCategory(Category category) async {
     final response = await http.post(ADD_URL, body: category.toJsonAdd());
