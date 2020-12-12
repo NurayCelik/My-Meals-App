@@ -3,14 +3,14 @@ import 'package:http/http.dart' as http;
 import '../models/favori.dart';
 
 class FavoriteService {
-   static const ADD_URL = "http://nc.nuraycelik.com/contentmeals/favoriteadd.php";
+   static const ADD_URL = "http://n.com/contentmeals/favoriteadd.php";
   static const VIEW_URL =
-      "http://nc.nuraycelik.com/contentmeals/favoriteviews.php";
+      "http://n.com/contentmeals/favoriteviews.php";
   static const GETID_URL =
       "";
   static const UPDATE_URL = "";
   static const DELETE_URL =
-      "http://nc.nuraycelik.com/contentmeals/favoritedelete.php";
+      "http://n.com/contentmeals/favoritedelete.php";
  
  
  List<Favori> mealsFromJson(String jsonString) {
